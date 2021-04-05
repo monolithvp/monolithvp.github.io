@@ -22,25 +22,36 @@
             overflow: hidden;
             font-size: 16px;
         }
+
         #home {
             background: black url(img/home.png) no-repeat;
-            background-size: contain;
+            /*background-size: contain;*/
             height: 100vh;
             background-position-x: center;
             background-position-y: bottom;
         }
+
+        #contact {
+            text-align: center;
+            padding: 0.5em;
+            position: fixed;
+            top: 95vh;
+            width: 100vw;
+        }
+
         a {
             color: white;
             font-family: sans-serif;
             font-weight: bold;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
         }
 
         @media (max-width: 800px) {
-            body{
+            body {
                 font-size: 12px;
             }
         }
@@ -53,7 +64,7 @@
 
 </div>
 
-<div style="text-align: center;padding: 0.5em;">
+<div id="contact">
     <a href="mailto:contact@monolithvp.com">contact@monolithvp.com</a>
 </div>
 
