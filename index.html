@@ -1,87 +1,350 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>MVP</title>
-
+    <meta charset="UTF-8">
+    <title>Monolith</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="keywords" content="Monolith, Virtual, Production, LED, Stages, MVP">
-    <meta name="description" content="Monolith Virtual Production">
-    <meta name="subject" content="Monolith Virtual Production">
-    <meta name='Classification' content='Virtual Production'>
-    <meta name="copyright" content="Monolith Virtual Production LLC">
     <meta name="google" content="notranslate"/>
-    <meta name="viewport" content="initial-scale=1, width=device-width"/>
+    <meta name="description" content="Monolith Virtual Production">
+    <meta name="copyright" content="©2021 All rights reserved">
+    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
+    <link rel="shortcut icon" type="image/png" href="static/img/favicon.png"/>
 
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-    <style>
-        body {
-            background: black;
-            height: 100vh;
-            overflow: hidden;
-            font-size: 16px;
-        }
-
-        #home {
-            background: black url(img/home.png) no-repeat;
-            /*background-size: contain;*/
-            height: 100vh;
-            background-position-x: center;
-            background-position-y: bottom;
-        }
-
-        #contact {
-            text-align: center;
-            padding: 0.5em;
-            position: fixed;
-            top: 95vh;
-            width: 100vw;
-        }
-
-        a {
-            color: white;
-            font-family: sans-serif;
-            font-weight: bold;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        @media (max-width: 800px) {
-            body {
-                font-size: 12px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="static/css/index.css">
 </head>
-
 <body>
 
-<div id="home">
-
+<div class="section-1">
+    <div>
+        <img src="static/img/monolith.png" alt="" class="monolith-logo">
+    </div>
+    <div class="subtitle w100" style="margin-top: 5em">
+        In-Camera Visual Effects Specialists
+    </div>
+    <div>
+        <a href="mailto:contact@monolithvp.com">contact@monolithvp.com</a>&ensp;|&ensp;<a href="tel:+12132555203">+1
+        (213) 255-5203</a>
+    </div>
 </div>
 
-<div id="contact">
-    <a href="mailto:contact@monolithvp.com">contact@monolithvp.com</a>
+<div class="section-2">
+    <div class="title" data-aos="fade">
+        ABOUT US
+    </div>
+    <div class="content" data-aos="fade">Monolith Virtual Production is a full-service virtual production and content
+        creation company specializing in proprietary LED volume architecture and content-to-display systems and
+        services, with top-tier technical expertise for customized virtual production workflows.
+
+        Monolith Virtual Production teams oversee the design, construction, and management of the LED Volumes.
+
+        Monolith Virtual Production content services teams work to create all visuals needed for your virtual
+        production needs including shooting 2D Plates, Lidar Scanning, and building bespoke CG Elements.
+    </div>
 </div>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3HGKTY51TE"></script>
+<div class="section-3">
+    <div class="title" data-aos="fade">
+        OUR SERVICES
+    </div>
+    <div class="flex-row w100" data-aos="fade">
+        <div class="services">
+            <div class="subtitle underlined">
+                Virtual Production Services
+            </div>
+            <div class="content">On set Supervision, Engineering, Playback
+
+                Pitch-Vis/Tech-Vis
+
+                Performance Motion Capture and Control
+
+                Real-time Rendering
+
+                Single & Multi Camera Realtime Tracking
+
+                Realtime In-Camera VFX
+            </div>
+        </div>
+        <div class="services">
+            <div class="subtitle underlined">
+                Content Services
+            </div>
+            <div class="content">Art Direction, Concept & Design
+
+                Storyboarding & Pre-Vis
+
+                Lidar & 2D Plate Photography
+
+                Creation of CG Environments, Vehicles, Props & Metahuman Reproduction
+
+                Visual Effects & Animation
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div>
+        <a href="mailto:contact@monolithvp.com">contact@monolithvp.com</a>&ensp;|&ensp;<a href="tel:+12132555203">+1
+        (213) 255-5203</a>
+    </div>
+</div>
+
+<div class="section-4">
+    <div class="title" data-aos="fade">
+        MVP TEAM
+    </div>
+    <div class="divider"></div>
+    <div class="subtitle" data-aos="fade">
+        EXECUTIVE TEAM
+    </div>
+    <div class="flex-row team-section" data-aos="fade">
+        <div class="team-container">
+            <div class="team-name">STEVE GRIFFITH</div>
+            <div class="team-description">
+                A VFX Executive with credits on over sixty feature films & commercials, some utilizing virtual
+                production methodologies, such as Murder on the Orient Express, Welcome to Marwen, and Justice League.
+                He specializes in innovating technology, optimizing production workflows, designing project management
+                tools, and building integrated digital pipelines.
+            </div>
+        </div>
+
+        <div class="team-container">
+            <div class="team-name">JACOB NGUYEN</div>
+            <div class="team-description">
+                Jacob is an accomplished operational strategist, company advisor, and entrepreneur with wide-ranging
+                experience around the world. He has extensive expertise in “startup-to-mature-enterprise” projects, the
+                VFX industry, film and cryptocurrency software development and mining.
+            </div>
+        </div>
+
+        <div class="team-container">
+            <div class="team-name">CRAIG BERNARD</div>
+            <div class="team-description">
+                Craig has produced content with some of the industry’s most noted production and post-production
+                companies, attracting over 15 billion views, and includes projects for artists like Bruno Mars, Lady
+                Gaga, Bon Jovi, and branded spots that include: Nissan, Jaguar, DKNY, Bentley, Toyota, Coca-Cola,
+                Budweiser, Chrysler, Dodge, SONY Playstation, Audi, and Ford; including groundbreaking launches for
+                Lexus and Panasonic.
+            </div>
+        </div>
+
+        <div class="team-container">
+            <div class="team-name">BRIAN HEARN</div>
+            <div class="team-description">
+                Over the past two decades, Brian has held senior leadership roles in the areas of finance, accounting
+                and treasury with the largest rental and production companies worldwide. An experienced strategist,
+                Brian has successfully led numerous financings, divestitures, mergers, and acquisitions.
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="subtitle" data-aos="fade">
+        VIRTUAL PRODUCTION TEAM
+    </div>
+    <div class="flex-row team-section" data-aos="fade">
+        <div class="team-container">
+            <div class="team-name">FRED WALDMAN</div>
+            <div class="team-description">
+                The preeminent, advanced LED architect for film and television, with over 30 years of experience in
+                custom lighting, video, and rigging solutions. Fred has developed exceptional proprietary systems that
+                integrate LED and video control interfaces, for specialized lighting effects and in-camera image
+                capture. He was the Lead LED architect for The Mandalorian, and other major feature film virtual
+                production projects.
+            </div>
+        </div>
+
+        <div class="team-container">
+            <div class="team-name">MARTY WICKMAN</div>
+            <div class="team-description">
+                Decades of international experience in video / lighting system integration for film, broadcast
+                television, concert touring and live events. He developed custom solutions integrating lighting and
+                video platforms for projects including The Mandalorian and recent Marvel movies. Other notable film
+                projects include A.I., Minority Report, Gravity, and War of the Worlds.
+            </div>
+        </div>
+
+        <div class="team-container">
+            <div class="team-name">JASON NEWMAN</div>
+            <div class="team-description">
+                Jason’s experience spans the entertainment industry with experience that ranges from live concert
+                specials to feature film and live broadcast events including supporting the Pope in Philadelphia and
+                Super Bowl LIV broadcast services. With a broad and diverse background in the entertainment industry,
+                Jason is leading the next evolution in virtual technologies.
+            </div>
+        </div>
+
+        <div class="team-container">
+            <div class="team-name">COLIN FEENEY</div>
+            <div class="team-description">
+                Colin is an accomplished production designer and executive in film, television, and live entertainment.
+                As a founder of Leading Environmental Design, he focused on designing festivals, concerts, tradeshows,
+                and new event applications. He was then VP of Ion Creative and has been a Virtual Production Account
+                Executive. Past projects include: Mattel Toys, Universal Studios, Coachella, Mank, Westworld, Riot
+                Games, and Super Bowl LI.
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-row team-section" data-aos="fade">
+        <div class="team-container">
+            <div class="team-name">JASON NUSS</div>
+            <div class="team-description">
+                Jason started in studio management for a variety of Hollywood television and film studios, and has a
+                deep understanding of studio logistics, costs, and resource management. He also specializes in LED and
+                projection technologies, on projects such as: The Mandalorian, The Academy Awards, MTV VMAs, Billboard
+                Awards, NCIS, Ford v Ferrari, The Jungle Book, Star Trek, Hunger Games, The Green Hornet, Interstellar,
+                and Terminator Genisys.
+            </div>
+        </div>
+
+        <div class="team-container">
+            <div class="team-name">BRIAN DOMAN</div>
+            <div class="team-description">
+                A veteran VFX professional with proven expertise in delivering innovative real-time workflows for film
+                productions seeking to deliver industry-defining visual impact. His credits include The Mandalorian,
+                Beowulf, Monster House, Alice in Wonderland, Welcome to Marwen, Avengers: Infinity War, and Watchmen.
+            </div>
+        </div>
+
+        <div class="team-container">
+            <div class="team-name">JARED LECLAIRE</div>
+            <div class="team-description">
+                An avid maker and digital tinkerer dedicated to developing innovative media and content systems for a
+                new era of entertainment technology. Jared has shepherded engineering and workflow solutions to scores
+                of film, television, and corporate productions including: First Man, MTV Video Music Awards, and X-Men:
+                Dark Phoenix.
+            </div>
+        </div>
+
+        <div class="team-container">
+            <div class="team-name">WESTON BEAUMONT</div>
+            <div class="team-description">
+                Weston has spent his career creating technology for creative minds across the entertainment industry.
+                Using CAD and manufacturing knowledge he has designed and built 3D native cameras, underwater camera
+                systems, unique broadcast robotic cameras, LED display processors and hardware, and virtual production
+                LED stages. His projects include: The Mandalorian, Avatar, Gemini Man, Life of Pi, and ESPN’s Sunday
+                Night baseball, which won him an Emmy award.
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="subtitle" data-aos="fade">
+        CONTENT TEAM
+    </div>
+    <div class="flex-row team-section" data-aos="fade">
+        <div class="team-container">
+            <div class="team-name">SCOT BARBOUR</div>
+            <div class="team-description">
+                Scot most recently served as VP of Production Technology at Sony Pictures Entertainment. He has been a
+                visionary in developing new technologies and integrations throughout his career. In 2003, he joined
+                Apple and was instrumental in the integration, adoption, and success of Final Cut Pro in Hollywood. At
+                Sony, Scot was responsible for pushing the boundaries of cinematic storytelling through new
+                technologies, including cutting edge utilization of Unreal Engine.
+            </div>
+        </div>
+
+        <div class="team-container">
+            <div class="team-name">JOHNNY GIBSON</div>
+            <div class="team-description">
+                Johnny has been a formative influence on VFX processes since the 1990s. At Digital Domain, he produced
+                procedural animation and rendering for Titanic, Dante’s Peak and The Fifth Element. He has since worked
+                as a creative, generalist and digital artist in every aspect of VFX, designed hundreds of shaders and
+                custom processes for VFX production, and supervised overall work for VFX on over thirty feature,
+                episodic, and themed entertainment offerings.
+            </div>
+        </div>
+
+        <div class="team-container">
+            <div class="team-name">FREDERICK LISSAU</div>
+            <div class="team-description">
+                Frederick is an industry veteran with over 25 years of experience in Production Management from
+                Animation, Visual Effects and Games to Software Development. He began his career at Disney Animation,
+                and rose through the ranks at such companies as Dreamworks, Sony Imageworks, Universal Studios and
+                Pixomondo. Frederick has both vendor and client experience, with a global footprint in the industry.
+            </div>
+        </div>
+
+    </div>
+
+    <div class="flex-row team-section" data-aos="fade">
+        <div class="team-container">
+            <div class="team-name">JOHN ASHBY</div>
+            <div class="team-description">
+                One of the foremost LIDAR, photogrammetry, data acquisition, and environment capture supervisors in the
+                world. Recent LIDAR projects have included the John Wick series and The Joker. Particular expertise in
+                bringing on-set data acquisition into the Unreal workflow.
+            </div>
+        </div>
+        <div class="team-container">
+            <div class="team-name">ROBERT FINLEY</div>
+            <div class="team-description">
+                Director of Photography and Cinematographer who started his stellar career at ILM. Bob’s projects
+                include: Disney’s The Jungle Book, Dwayne Johnson’s San Andreas, the Matrix franchise, the Spider-Man
+                franchise, Marvel’s Ant Man, the Snowpiercer series, the Preacher series, and Glee.
+            </div>
+        </div>
+
+        <div class="team-container">
+            <div class="team-name">JASON ROGERS</div>
+            <div class="team-description">
+                Jason specializes in Unreal Engine development and virtual film production. An expert in virtual
+                reality, Jason's career has always been at the cutting edge of both gaming and film industries. His
+                projects include: the first AAA VR first-person shooter, Raw Data; NuDesign, virtual film production
+                tools used for commercials and television; the Ghostbusters Movie Presentation with Sony Innovation
+                Studios, which premiered at CES 2020.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-5">
+
+    <div class="title" data-aos="fade">
+        CONTACT US
+    </div>
+    <div data-aos="fade">
+        <div><a href="mailto:contact@monolithvp.com">contact@monolithvp.com</a> | <a href="tel:+12132555203">+1
+            (213)255-5203</a></div>
+        <br>
+        <div>Los Angeles, CA | Atlanta, GA | New York City, NY | London, UK</div>
+    </div>
+
+    <br><br><br><br><br><br>
+    <div class="title" data-aos="fade">
+        CAREERS
+    </div>
+    <div data-aos="fade">
+        <div>
+            <div>For current open jobs, please visit our LinkedIn page</div>
+            <br/>
+            <a href="https://www.linkedin.com/company/monolithvp/jobs/?viewAsMember=true">LINKEDIN</a>
+        </div>
+    </div>
+</div>
+
+<div class="section-6">
+    <div data-aos="fade">
+        <img src="static/img/mvp.png" alt="">
+    </div>
+    <div class="content" data-aos="fade">
+        ABOUT MONOLITH VIRTUAL PRODUCTION
+        MVP, formed in 2019, is a full-service virtual production company based in
+        Burbank, California with facilities in Los Angeles, CA, Atlanta, GA, New York City, NY, and London, UK.
+        ©2021 All rights reserved.
+    </div>
+</div>
+
+<script src="static/js/index.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'G-3HGKTY51TE');
+    AOS.init({
+        delay: 100,
+        easing: 'ease-in'
+    });
 </script>
 
 </body>
-
 </html>

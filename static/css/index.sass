@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@400;500;700&display=swap')
+
+body
+  margin: 0
+  font-family: 'Cuprum', sans-serif
+  font-size: 16px
+  font-weight: normal
+  color: white
+  overflow-x: hidden
+  background: black
+
+a
+  color: inherit
+
+.w100
+  width: 100vw
+
+.flex-row
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+
+.flex-column
+  display: flex
+  flex-direction: column
+
+.title
+  font-size: 2.5em
+  padding-bottom: 1em
+
+.subtitle
+  font-size: 1.5em
+  padding-bottom: 1em
+
+.underlined
+  text-decoration: underline
+
+.content
+  white-space: pre-line
+  line-height: 2em
+
+.divider
+  border-bottom: 1px solid grey
+  width: 70vw
+  margin: 2em
+
+.section
+  display: flex
+  flex-direction: column
+  width: 100vw
+  min-height: 100vh
+  justify-content: center
+  align-items: center
+  text-align: center
+  //margin-bottom: 4em
+
+div.section-1
+  @extend .section
+  background: url(../img/bg1.png) center center no-repeat
+  background-size: cover
+
+  img
+    width: 40vw
+
+div.section-2
+  @extend .section
+  background: url(../img/bg2.png) center center no-repeat
+  background-size: cover
+
+  .content
+    font-size: 1.25em
+    max-width: 80vw
+
+div.section-3
+  @extend .section
+  background: url(../img/bg3.png) center center no-repeat
+  background-size: cover
+
+  .services
+    flex: 1
+
+    .content
+      padding: 1em
+
+div.section-4
+  @extend .section
+  background: url(../img/bg4.png) center center no-repeat
+  background-size: cover
+
+div.section-5
+  @extend .section
+  background: url(../img/bg5.png) center center no-repeat
+  background-size: cover
+  background: black
+
+div.section-6
+  @extend .section
+  background: url(../img/bg6.png) center center no-repeat
+  background-size: cover
+
+  img
+    width: 40vw
+
+.team-section
+  width: 90vw
+  padding: 2em 0
+
+.team-container
+  flex: 1
+
+  .team-name
+    padding: 1em
+
+  .team-description
+    padding: 1em
+    line-height: 1.5em
+
+@media (max-width: 800px)
+  div.section-1
+    img
+      width: 70vw
+
+  .team-section
+    flex-direction: column
